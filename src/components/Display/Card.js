@@ -3,8 +3,8 @@ import styles from  "./Card.module.css";
 
 const Card = (props) => {
   return (
-    <ul>
-      <li key={props.id}>
+    <ul className={styles.Card}>
+      <li key={props.id} className={styles.data}>
         <h2>{props.country}</h2>
         <h3>{props.confirmed}</h3>
         <h3>{props.deaths}</h3>
