@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./Card.module.css";
+import styles from  "./Card.module.css";
 
 const Card = (props) => {
   return (
-    <ul className={styles.Card}>
+    <ul>
       <li key={props.id}>
         <h2>{props.country}</h2>
         <h3>{props.confirmed}</h3>
