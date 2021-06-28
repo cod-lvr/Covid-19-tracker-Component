@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    padding: 0.38rem;
+    width: 30%;
+    background-color: rgb(255, 7, 7);
+    border: 0;
+    color: #f1f1f1;
+    font-weight: bolder;
+    border-radius: 12px;
+    margin-top: -42px;
+    font-weight: bold;
+    font: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgba(255, 7, 7, 0.733);
+}

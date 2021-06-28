@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import DataDisplay from "./components/Display/DataDisplay";
 import Search from "./components/search/Search";
+import styles from "./App.module.css";
 
 function App() {
   const [countrie, setCountries] = useState([]);
@@ -42,7 +43,7 @@ function App() {
       </section>
       <section>
         <Search onSearch={searchInputHandler} />
-        <button onClick={newUpdateHandler}>last Update</button>
+        <button onClick={newUpdateHandler} className={styles.btn}>last Update</button>
       </section>
       <section>
         <DataDisplay countries={countrie} />
